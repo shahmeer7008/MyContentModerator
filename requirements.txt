@@ -5,7 +5,7 @@
 langgraph==0.2.45
 langchain-groq==0.2.1
 langchain-core==0.3.15
-gradio
+gradio[oauth,mcp]==5.49.1
 
 # Required for compatibility
 pydantic==2.9.2
