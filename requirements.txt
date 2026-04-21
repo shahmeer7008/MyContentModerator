@@ -1,12 +1,9 @@
-# File: requirements.txt
-# Multi-Agent Content Moderation System Dependencies
+# core frameworks (Updated to versions compatible with Gradio 5.49.1)
+langgraph==1.0.2          # Upgraded from 0.3.5 - supports modern Gradio
+langchain-groq==0.3.2     # Keep this if needed, but check compatibility
+langchain-core==0.3.45    # Keep this
 
-# Core frameworks
-langgraph==0.3.5
-langchain-groq==0.3.2
-langchain-core==0.3.45
-
-# Required for compatibility
+# Required for compatibility (Keep these strict to avoid conflicts)
 pydantic==2.10.6
 pydantic-core==2.27.2
 
