@@ -5,7 +5,6 @@
 langgraph==0.2.45
 langchain-groq==0.2.1
 langchain-core==0.3.15
-gradio[oauth,mcp]>=5.0,<6
 uvicorn>=0.14.0
 websockets>=10.4
 
